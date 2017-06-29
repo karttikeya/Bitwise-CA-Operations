@@ -1,8 +1,14 @@
 # Bitwise-CA-Opearions
-Code for the paper : Bitwise Operations of Cellular Automaton on Gray Scale Images
-The paper is accepted at the Irish Signals and Systems Conference 2018.
-All of the code is written from ground-up in MATLAB 2016 with plots and data crunching in Python27.
+Code repository for the paper Bitwise Operations of Cellular Automaton on Gray Scale Images published at [Irish Signals and Systems Conference](http://www.issc.ie/site/view/7/) in June 2017.
 
-The specific folders have corresponding readme.txt for introduction. Refer to the paper for exact details. 
+All of the code is written independent of 3rd person libraries in MATLAB 2016 with plots and data crunching in Python27.
 
-ArXiv link : https://arxiv.org/abs/1705.07080
+The specific folders have corresponding readme.txt for instructions. Refer to the paper for exact details on algorithm and implementation 
+
+[ArXiv link](https://arxiv.org/abs/1705.07080) for the paper. 
+
+## Absract:
+
+Cellular Automata (CA) theory is a discrete model that represents the state of each of its cells from a finite set of possible values which evolve in time according to a pre-defined set of transition rules. CA have been applied to a number of image processing tasks such as Convex Hull Detection, Image Denoising etc. but mostly under the limitation of restricting the input to binary images. In general, a gray-scale image may be converted to a number of different binary images which are finally recombined after CA operations on each of them individually. We have developed a multinomial regression based weighed summation method to recombine binary images for better performance of CA based Image Processing algorithms. The recombination algorithm is tested for the specific case of denoising Salt and Pepper Noise to test against standard benchmark algorithms such as the Median Filter for various images and noise levels. The results indicate several interesting invariances in the application of the CA, such as the particular noise realization and the choice of sub-sampling of pixels to determine recombination weights. Additionally, it appears that simpler algorithms for weight optimization which seek local minima work as effectively as those that seek global minima such as Simulated Annealing.
+
+## How to Execute: 
